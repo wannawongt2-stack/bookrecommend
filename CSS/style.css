@@ -1,0 +1,72 @@
+.soft-box {
+  background-color: #f3f1eb;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* เงานุ่ม */
+  border-radius: 12px;               /* ขอบมน */
+  padding: 20px;                     /* เพิ่มช่องว่างภายใน */
+  transition: box-shadow 0.3s ease;  /* เพิ่ม transition เวลามี hover */
+}
+.sea-background {
+  background-image: url("../Images/ทะเลใจ.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0; 
+}
+.soft-bluebox {
+  background-color: #abbbc2;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* เงานุ่ม */
+  border-radius: 12px;               /* ขอบมน */
+  padding: 20px;                     /* เพิ่มช่องว่างภายใน */
+  transition: box-shadow 0.3s ease;  /* เพิ่ม transition เวลามี hover */
+}
+.soft-deepbluebox {
+  background-color: #7b9dc2;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* เงานุ่ม */
+  border-radius: 12px;               /* ขอบมน */
+  padding: 20px;                     /* เพิ่มช่องว่างภายใน */
+  transition: box-shadow 0.3s ease;  /* เพิ่ม transition เวลามี hover */
+}
+.soft-seabox {
+  background-color: #142131;         
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* เงานุ่ม */
+  border-radius: 12px;               /* ขอบมน */
+  padding: 20px;                     /* เพิ่มช่องว่างภายใน */
+  transition: box-shadow 0.3s ease;  /* เพิ่ม transition เวลามี hover */
+  color: white;
+}
+p {
+  font-family: 'Noto Sans Thai Looped', sans-serif;
+  font-weight: 400;
+  font-size: 20px !important;
+}
+h1, h2, h3 {
+  font-family: 'Mitr', sans-serif;
+  font-weight: 400;
+}
+.custom-box {
+  font-family: 'BBH Sans Hegarty', sans-serif;
+}
+.my-box1 {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 400;
+}
+a {
+  color: #78a3d4 !important;
+}
+.carousel-inner img {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px; /* เพิ่มมุมโค้งเล็กน้อยให้สวย */
+}
+.responsive-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+
